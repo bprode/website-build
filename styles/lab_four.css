@@ -1,0 +1,385 @@
+body {
+    font-family: "Urbanist", sans-serif;
+}
+
+.head-container{ 
+    padding: 1.2rem .5rem;
+   
+    background:rgba(54,70,47,1.1);
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    z-index: 99;
+}
+
+.head-list ul, .head-list li{
+    display: inline;
+    
+}
+
+.head-list li{
+   margin: 0rem .5rem;
+    
+}
+
+.head-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/coffee-beans.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+
+}
+
+.content-container{
+    background-color: unset;
+    height: inherit;
+}
+
+.content:nth-child(odd) {
+    display: flex;
+    justify-content: space-between  ;
+    margin: 2rem 0;
+}
+
+.content:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.content-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+}
+
+.content-message button {
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    background-color: #e89d08;
+    
+}
+
+.content-message button:hover {
+    background-color: #b47c0b;
+    transition: 0.4s;
+}
+
+.content-image img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 29rem;
+}
+
+
+.accordion-container {
+    background-color: unset;
+    height: unset;
+}
+
+.second-paragraph {
+margin-bottom: 2px;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion:hover {
+    background-color: #e89d07;
+    border-radius: 3px;
+}
+
+.footer-container {
+    background-color:#374630; 
+    height: unset;
+    color: white;
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.footer-message {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.footer-icons {
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #e89d08;
+}
+
+.footer-message a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    margin: auto;
+}
+
+.footer-map {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+.card-content {
+    padding: 0.5rem;
+}
+
+.card {
+    list-style-type: none;
+}
+
+.card:hover {
+    top:-30px;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    position: relative;
+    transition: box-shadow .6s ease .1s;
+}
+
+
+
+img {
+    object-fit: cover;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+   
+    width: 24rem;
+  }
+  
+.card img {
+    border-bottom: 0.25rem solid #374630;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+}
+
+
+.header,
+.subheader {
+    margin: 0;
+    margin: 1rem 0;
+}
+
+
+.container{
+    margin-top: 1rem;
+}
+
+/* Cat Iframe to respect the video ration */
+.iframe{
+    position: relative;
+    padding-bottom: 56.25%;
+    border-bottom: 0.25rem solid #374630;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    
+.video-container{
+    margin: 3rem auto;
+    padding: 3rem 1.5rem;
+    max-width: 75rem;
+ }
+ 
+ .video-message{
+     text-align: left;
+ }
+ 
+ .iframe-wrapper {
+     text-align: center;
+     
+ }
+ 
+ .video-iframe iframe{
+     width: 70%;
+     height: 70%;
+     aspect-ratio: 16/9;
+ }
+ 
+ .video-iframe p {
+     padding: 3rem 2rem;
+     font-weight: 200;
+ }
+
+ .hero-img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 15rem;
+}
+
+.hero-text {
+    text-align: center;
+    margin-left: 4rem;
+    color: white;
+    width: 40rem;
+}
+
+.hero-text h1, 
+.hero-text h2,
+.hero-text p{
+    line-height: inherit;
+}
+
+.hero-text h2 {
+    font-weight: 200;
+}
+
+
+@media screen and (min-width: 768px) {
+    img {
+        min-height: 15.5rem;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    img {
+        min-height: 16.375rem;
+    }
+}
+
+
+@media ( width <= 1200px) {
+    .content:nth-child(odd), .content:nth-child(even){
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hero-img {
+        flex-direction: column;
+    }
+
+    .hero-logo {
+        width: 45%;
+    }
+    
+    .hero-text {
+        width: inherit;
+        margin: 0;
+    }
+
+    .hero-container {
+        height: inherit;
+        margin: 3rem 0 ;
+    }
+
+    .hero-text {
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .footer-message {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .footer-map {
+        display: none;
+    }
+
+    .content-message {
+        align-items: center;
+    }
+}
+
+/* (=^._.^=) */
+
+@media ( width <= 400px) {
+    .content-image {
+        display: none;
+    }
+    
+    .footer-message {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .card {
+        flex-basis: 45%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .card {
+        flex-basis: 30%;
+    }
+    
+}

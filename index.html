@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="./styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="./styles/global.css">
+  <link rel="stylesheet" type="text/css" href="./styles/lab_four_starter.css"> 
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+  <link rel="stylesheet" type="text/css" href="./styles/lab_four.css">
+  
+  <script async src="https://kit.fontawesome.com/d46a258f84.js" crossorigin="anonymous"></script>
+  <script defer src="./scripts/lab_four.js"></script>
+  <title>U-Brew</title>
+</head>
+<body>
+<!--Let's get caffeinated-->
+  <section class="head-container">
+    <nav>
+      <ul class="head-list">
+        <li><a href="./index.html#home">Home</a></li>
+        <li><a href="./index.html#content">Posts</a></li>
+        <li><a href="./index.html#specialty">Specialty Coffee</a></li>
+        <li><a href="./about.html#faq">Coffee Questions</a></li>
+        <li><a href="./about.html#about">About Brews</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="home" class="hero-container">
+    <div class="hero-img">
+      <div class="hero-text">
+        <h1>U-Brew Coffee Beans </h1><br/>
+        <h2>We got new Coffee Beans for you!</h2>
+      </div>
+    </div>
+  </section>
+  <section id="content" class="container content-container">
+    <div class="content">
+      <div class="content-message">
+        <h1>About U-Brew</h1>
+        <p>Coffee beans for U and everybody</p>
+      </div>
+      <div class="content-image">
+        <img src="./assets/Ubrew_cup.png" alt="A coffee inside a room"/>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-message">
+        <h1>Meet the Brewsters</h1>
+        <p>Wanna see who is brewing your favorite cup of joe?</p>
+        <button> Learn More about Brewsters </button>
+      </div>
+      <div class="content-image">
+        <img src="./assets/pexels-elizabeth-zernetska-9409745.jpg" alt="4 baristas inside a coffee shop with coffee beans in the foreground"/>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-message">
+        <h1>Our Coffee Beans</h1>
+        <p>Find out which bean you like best..</p>
+        <button> Learn More about our Coffee Beans</button>
+      </div>
+      <div class="content-image">
+        <img src="./assets/pexels-juan-pablo-serrano-arenas-894695.jpg" alt="A coffee bean inside a coffee mixer"/>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="specialty" class="container">
+    <h1 class="video-message">Specialty Coffee Beans</h1>
+    <h2>Look at our different types of coffee beans</h2>
+    <ul id="coffee-list" class="card-container">
+      <!-- DYNAMICALLY FILLED UP BY API DATA  -->
+    </ul>
+  </section>
+
+  <section class="footer-container">
+    <div class="footer-wrapper">
+      <div class="footer-message">
+        <div class="footer-info">
+            <h2>Information</h2>
+            <p>
+              Buy one of our coffee beans
+            </p>
+            <h2>Social Media</h2>
+            <p class="footer-icons">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </p>
+        </div>
+        <div class="footer-links">
+            <h2>Links</h2>
+            <p>
+              <a href="#">Privacy Policy</a> 
+              <i class="fa-solid fa-chevron-right"></i>
+            </p>
+            <p>
+              <a href="#">Terms of Use</a>
+              <i class="fa-solid fa-chevron-right"></i>
+            </p>
+            <p>
+              <a href="#">Accessibility</a>
+              <i class="fa-solid fa-chevron-right"></i>
+            </p>
+        </div>
+      </div>
+      <div class="footer-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.4027478932294!2d-114.09271751163384!3d51.06411499878744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fffcea83cad%3A0x118df41bd39da364!2sHeritage%20Hall%20SAIT!5e0!3m2!1sen!2sca!4v1711078956702!5m2!1sen!2sca" width="85%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-copyright">
+          Copyright &#169; <span id="footer-year"></span> Bea Rodriguez
+        </div>
+    </div>
+  </section>
+</body>
+</html>
